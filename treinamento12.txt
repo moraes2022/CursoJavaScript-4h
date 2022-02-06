@@ -16,17 +16,8 @@ let maiorDeIdade = true;
 let poussuiCarteiraDeTrabalho = true;
 let podeAplicar = maiorDeIdade && poussuiCarteiraDeTrabalho;
 
-
 console.log("let maiorDeIdade = true;");
 console.log("let poussuiCarteiraDeTrabalho = true;");
 console.log("let podeAplicar = maiorDeIdade && poussuiCarteiraDeTrabalho;");
 console.log("console.log(podeAplicar);")
 console.log(podeAplicar);
-
-let recusado = !podeAplicar;
-
-
-
-
-
-
