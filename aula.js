@@ -1,18 +1,16 @@
 console.log('Hello Word!')
 
-//Aula 1 - variaveis
-let idade = 40;
-console.log(idade)
-let altura = 1.80;
-console.log(altura);
-//camelCase
+//Treinamento 2: Constantes
+let valorIngressoAdulto = 20;
+valorIngressoAdulto = 30;
+console.log(valorIngressoAdulto);
 
-//Exercicio proposto
-let nome = "Valter ";
-let sobreNome = "Moraes ";
-let curso = "JavaScript-4h";
+// Se alterar o let por const, teremos um erro
 
-console.log("Eu sou o Mr. " + nome + sobreNome + ("estou fazendo o curso: ") + curso)
+//const valorIngressoAdulto = 20; (Uncaught TypeError: Assignment to constant variable.)
+//valorIngressoAdulto = 30;
+//console.log(valorIngressoAdulto);
+
 
 
 
