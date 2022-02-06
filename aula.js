@@ -8,6 +8,11 @@ console.log(altura);
 //camelCase
 
 //Exercicio proposto
+let nome = "Valter ";
+let sobreNome = "Moraes ";
+let curso = "JavaScript-4h";
+
+console.log("Eu sou o Mr. " + nome + sobreNome + ("estou fazendo o curso: ") + curso)
 
 
 
