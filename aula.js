@@ -1,19 +1,18 @@
-console.log('Hello Word!')
+console.log('%c Hello World ','color:hsl(240, 100%, 90%);background-color:hsl(240, 100%, 50%);');
+console.log("-".repeat(589))
 
-//Treinamento 2: Constantes
-let valorIngressoAdulto = 20;
-valorIngressoAdulto = 30;
-console.log(valorIngressoAdulto);
+console.log("Treinamento 3: Tipos primitivos - Referencia")
 
-// Se alterar o let por const, teremos um erro
-
-//const valorIngressoAdulto = 20; (Uncaught TypeError: Assignment to constant variable.)
-//valorIngressoAdulto = 30;
-//console.log(valorIngressoAdulto);
+console.log("-".repeat(589))
 
 
+let nome = "Rafael"; // string literal
+let idade = 25; // number literal
+let estaAprovado = true; //boolean
+let sobreNome = undefined; // undefined
+let corSelecionado = null; // Rdefinir um valor
 
-
-
-
-
+console.log(nome, typeof nome);
+console.log(idade, typeof idade);
+console.log(estaAprovado, typeof estaAprovado);
+console.log(corSelecionado, typeof corSelecionado)

@@ -1,0 +1,9 @@
+Tipos primitivos : referencia
+
+let nome = "Fafael"; // string literal
+let idade = 25; // number literal
+let estaAprovado = true; //boolean
+let sobreNome = undefined; // undefined
+let corSelecionado = null; // Rdefinir um valor
+
+
