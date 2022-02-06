@@ -1,17 +1,30 @@
 console.log('%c Hello World ','color:hsl(240, 100%, 90%);background-color:hsl(240, 100%, 50%);');
 console.log("-".repeat(589))
 
-console.log("Desafio 1 - invertendo as coraes")
+console.log("IF .. Else")
 
 console.log("-".repeat(589))
 
-let a = "vermelho";
-let b = "azul";
-let c = a;
-a = b;
-b = c;
+var data = new Date();
+var hora = data.getHours();
+var min     = data.getMinutes();
+console.log(hora + " horas");
+console.log(min + " minutos");
 
-console.log(a);
-console.log(b);
+if (hora > 6 && hora < 12){
+    console.log("Bom dia");
+    }
+    else if (hora > 12 && hora < 18){
+        console.log("Boa tarde");
+    }
+    else {
+        console.log("boa noite")
+    }
+
+
+
+
+
+
 
 
