@@ -25,7 +25,3 @@ function imc(peso, altura){
 
 let calcImc = imc(124, 1.87);
 console.log("Seu índe de massa corporal é = "+ calcImc);
-
-
-
-
