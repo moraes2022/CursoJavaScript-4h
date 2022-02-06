@@ -28,12 +28,3 @@ let bolaDeGude = 100;
 console.log(bolaDeGude);
 console.log("tirando uma bola de gude com -- " + bolaDeGude--);
 console.log(bolaDeGude)
-
-
-
-
-
-
-
-
-
