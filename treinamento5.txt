@@ -1,0 +1,13 @@
+console.log("Treinamento 5 - Arrays")
+
+console.log("-".repeat(589))
+
+let familia = [true, 45,'jhonatan', 17];
+console.log(familia);
+console.log(familia.length);
+console.log(familia[0]);
+
+console.log('Exercício proposto');
+
+let nomeDoColega = ['Eriberg', 37,'casado', '2 filhos', 'cidade residente: Iranduba'];
+console.log(nomeDoColega);
